@@ -63,11 +63,16 @@ calculate_money_made(MEX=trip1, USA=trip2)
 
 ## 🧪 Tests
 
-The Unittest.py file includes custom tests that validate:
+The pytest  includes custom tests that validate:
 
  * The format and value of the shipping cost. 
  * The correct selection of the most economical driver. 
  * The precise calculation of profits.
+
+Note: All can be easily validated in terminal
+```terminal
+pytest
+```
 
 ## ⚙️ Requirements
 Python 3.10+

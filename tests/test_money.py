@@ -1,4 +1,4 @@
-from costs.models import Driver, Trip
+from src.models import Driver, Trip
 from main import calculate_money_made
 
 def test_money_made():

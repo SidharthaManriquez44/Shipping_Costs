@@ -1,4 +1,4 @@
-from costs.shipping_costs import get_distance, format_price, SHIPPING_PRICES
+from src.shipping_costs import get_distance, format_price, SHIPPING_PRICES
 from math import inf
 
 def calculate_shipping_cost(from_coords, to_coords, shipping_type='Overnight'):

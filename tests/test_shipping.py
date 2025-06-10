@@ -1,5 +1,5 @@
 from main import calculate_shipping_cost
-from costs.shipping_costs import get_distance
+from src.shipping_costs import get_distance
 
 
 def test_default_shipping_type():

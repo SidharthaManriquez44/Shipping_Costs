@@ -1,4 +1,4 @@
-from costs.models import Driver
+from src.models import Driver
 from main import calculate_driver_cost
 
 def test_least_expensive_driver():

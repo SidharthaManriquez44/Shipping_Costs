@@ -35,7 +35,7 @@ The `calculate_driver_cost()` function determines which driver is the most econo
 
 ```python
 from main import calculate_driver_cost
-from costs.models import Driver
+from src.models import Driver
 
 driver1 = Driver(4, 10)
 driver2 = Driver(7, 20)
@@ -49,8 +49,8 @@ The `calculate_money_made()` function calculates the net earnings for one or mor
 
 ```python
 from main import calculate_money_made
-from costs.models import Driver
-from costs.models import Trip
+from src.models import Driver
+from src.models import Trip
 
 driver1 = Driver(4, 10)
 driver2 = Driver(7, 20)

@@ -4,14 +4,14 @@
 Is a Python project to calculate shipping costs, select optimal drivers based on speed and salary, and calculate net profits from multiple transportation trips.
 
 
-## 📦 Project Structure
+## Project Structure
 
 ShippingCosts/ ├── costs/ │ ├── init.py │ ├── shipping_costs.py ├── UnitTest/ │ ├── init.py │ ├── Unittest.py ├── main.py ├── README.md
 
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 1. Shipping cost calculation
 The `calculate_shipping_cost()` function estimates the shipping cost between two geographic coordinates, considering the type of shipment:
@@ -61,7 +61,7 @@ calculate_money_made(MEX=trip1, USA=trip2)
 # → 445
 ```
 
-## 🧪 Tests
+## Tests
 
 The pytest  includes custom tests that validate:
 
@@ -74,14 +74,14 @@ Note: All can be easily validated in terminal
 pytest
 ```
 
-## ⚙️ Requirements
+## Requirements
 Python 3.10+
 
 Does not require external dependencies
 
-##  ‍🧑‍💻 Author
+## Author
 Developed by `Sidhartha Manriquez`.
 
-## 📄 License
+## License
 
 This project is under the [License MIT](LICENSE).
